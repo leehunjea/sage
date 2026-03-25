@@ -1,0 +1,7 @@
+smolagents>=1.9.0
+supabase>=2.0.0
+langfuse>=2.0.0
+opentelemetry-sdk
+opentelemetry-exporter-otlp
+httpx
+python-dotenv
