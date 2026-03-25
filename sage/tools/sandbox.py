@@ -11,7 +11,6 @@ BLOCKED_PATTERNS = [
 ]
 
 def validate_code(code: str) -> str:
-    """2차 방어선: AST 파싱 이전 문자열 레벨 차단"""
     code_lower = code.lower()
     for pattern in BLOCKED_PATTERNS:
         if pattern.lower() in code_lower:
